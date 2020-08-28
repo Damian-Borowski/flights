@@ -1,0 +1,111 @@
+.app {
+  background-color: white;
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 1px 10px 40px grey;
+}
+
+.flights {
+  font-size: 10px;
+  color: white;
+}
+
+#departure, #destination {
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+  margin-top: 20px;
+  background-color: white;
+  border: solid 2px #1c7293;
+  outline-style: none;
+  border-radius: 50px;
+  display: block;
+}
+
+.results {
+  margin-top: 20px;
+  padding: 20px;
+  font-weight: 600;
+}
+
+.results-title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.results-summary {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.results-summary h2 {
+  font-size: 24px;
+  display: inline-block;
+  margin-top: 10px;
+  color: #0466c8;
+}
+
+.results-summary button {
+  padding: 10px;
+  font-size: 14px;
+  display: inline-block;
+  border-radius: 25px;
+  border-style: none;
+  border: solid 2px #BB86FC;
+  background-color: white;
+  cursor: pointer;
+  outline-style: none;
+  margin-left: 20px;
+}
+
+.results-summary button:hover {
+  background-color: #BB86FC;
+  color: white;
+}
+
+.title-box {
+  background-color: #0466c8;
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+  height: 70px;
+  width: 100%;
+  
+}
+
+.title {
+  font-size: 34px;
+  line-height: 70px;
+  color: white
+}
+
+select {
+  text-align-last: center;
+  margin: 0 auto;
+}
+
+.text {
+  margin-top: 10px;
+  display: block;
+  font-size: 18px;
+}
+
+select option:first-of-type {
+  display: none;
+}
+
+p {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #0466c8;
+}
+
+span {
+  color: darkmagenta;
+}
